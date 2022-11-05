@@ -36,7 +36,6 @@ const Fashions = (props) => {
   const isWide = useMedia({minWidth:"600px"});
   const {user} = useContext(AppContext);
 
-
   const {data, loading, error} = useQuery(ItemQuery,
     {variables:{id: router.query.id}});
 
