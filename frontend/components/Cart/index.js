@@ -66,12 +66,12 @@ const Cart = () => {
                 </div>
               </Badge>
 
-              <div>
-                <Link href="/check">
+              <div className="order">
+                
                   <Button style={{width:"100%"}}>
-                    <a>注文確定</a>
+                    <a href="/check">注文確定</a>
                   </Button>
-                </Link>
+                
               </div>
 
             </div>
@@ -107,6 +107,20 @@ const Cart = () => {
           align-items:center;
           font-size:14px;
           padding:6px;
+        }
+
+        .order a{
+          color:white;
+          text-decoration:none;
+          
+        }
+
+        .order {
+          opacity:0.8;
+        }
+
+        .order:hover{
+          opacity:1;
         }
     
         `}
@@ -165,12 +179,10 @@ const Cart = () => {
                 </div>
               </Badge>
 
-              <div>
-                <Link href="/check">
+              <div> 
                   <Button style={{width:"100%"}}>
-                    <a>注文確定</a>
+                    <a href="/check">注文確定</a>
                   </Button>
-                </Link>
               </div>
 
             </div>
@@ -207,6 +219,20 @@ const Cart = () => {
           align-items:center;
           font-size:14px;
           padding:6px;
+        }
+        
+        .order a{
+          color:white;
+          text-decoration:none;
+          
+        }
+
+        .order {
+          opacity:0.8;
+        }
+
+        .order:hover{
+          opacity:1;
         }
     
         `}

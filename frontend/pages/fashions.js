@@ -75,11 +75,11 @@ const Fashions = (props) => {
         {user ? (<Button outline style={{width:"100%",margin:"20px auto 0 auto",}} 
          onClick={() => appContext.addItem(fas)}>
         カートに入れる
-        </Button>) : (<Button outline style={{width:"100%",margin:"20px auto 0 auto",}}><Link href="/login">
-        <a>
+        </Button>) : (
+        <Button outline style={{width:"100%",margin:"20px auto 0 auto",}}>
+        <a href="/login">
         カートに入れる
         </a>
-        </Link>
         </Button>)}
       </div>
       
